@@ -1,0 +1,40 @@
+.card-body p {
+  font-weight: bold;
+}
+
+.theme a {
+  color: #000;
+}
+
+.theme a:hover {
+  color: #ff7300;
+  text-decoration: none;
+}
+
+.theme-card {
+  margin-bottom: 30px !important;
+  border-radius: 8px !important;
+  background-position: left !important;
+  height: 65% !important;
+}
+
+.theme-card:hover {
+  transform: scale(1.1) !important;
+  transition: 0.3s;
+}
+
+.heading {
+  margin-bottom: 2rem !important;
+}
+
+.instruction {
+  font-family: circular;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .instruction {
+    line-height: 30px;
+  }
+}
