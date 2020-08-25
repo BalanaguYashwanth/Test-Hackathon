@@ -11,14 +11,15 @@
   text-decoration: none;
 }
 
-
-
 .theme-card {
-  
   margin-bottom: 30px !important;
   border-radius: 8px !important;
   background-position: left !important;
   height: 65% !important;
+}
+
+.card-body:hover{
+  background: rgba(255,255,255,0.5);
 }
 
 .theme-card:hover {
