@@ -16,6 +16,7 @@
 }
 
 .theme-card {
+  opacity: 0.2;
   margin-bottom: 30px !important;
   border-radius: 8px !important;
   background-position: left !important;
