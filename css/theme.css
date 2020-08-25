@@ -11,6 +11,10 @@
   text-decoration: none;
 }
 
+.card theme-card shadow{
+    background: rgba(255,255,255,.5);
+}
+
 .theme-card {
   margin-bottom: 30px !important;
   border-radius: 8px !important;
