@@ -1198,8 +1198,8 @@ bottom: 0;
 
 .team .member .member-info-content {
   position: absolute;
-  left: 50px;
-  right: 0;
+  left: 30px;
+  /* right: 0; */
   bottom: 0;
   transition: bottom 0.4s;
 }
@@ -1594,6 +1594,12 @@ footer {
 .icons {
   margin-left: 14%;
   margin-top: 4%;
+}
+
+#row{
+ 
+ justify-content: space-evenly;
+  
 }
 
 .icons .icon-link {
