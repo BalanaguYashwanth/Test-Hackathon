@@ -1,6 +1,7 @@
 .card-body p {
+  padding: 20px 20px 20px 20px;
   font-weight: bold;
-}
+} 
 
 .theme a {
   color: #000;
@@ -15,7 +16,6 @@
   margin-bottom: 30px !important;
   border-radius: 8px !important;
   background-position: left !important;
-  height: 65% !important;
 }
 
 .card-body:hover{
