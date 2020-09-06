@@ -1038,44 +1038,46 @@
               <hr>
               <form action="https://www.letsupgrade.in/BWLU/forms/contact.php" method="post" role="form" class=""
                 style="font-family: circular;">
-                <div class="form-row">
+                <div class="form-row" > 
+                  <div class="form-group col-md-6">
+  
+                    <label for="mobile">Your name</label>
+                    <input type="text" class="form-control" name="mobile" id="mobile" data-rule="minlen:10"
+                      data-msg="Please enter a valid mobile number"  required/>
+                    <div class="validate"></div>
+                  </div>
                   <div class="form-group col-md-6">
                     <label for="name">Team  Name*</label>
                     <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
-                      data-msg="Please enter at least 4 chars" />
+                      data-msg="Please enter at least 4 chars" required  />
                     <div class="validate"></div>
                   </div>
+  
+                 
+                  
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="mobile"> Your Mobile Number</label>
+                    <input type="text" class="form-control" name="mobile" id="mobile" data-rule="minlen:10"
+                      data-msg="Please enter a valid mobile number" required />
+                    <div class="validate"></div>
+                    </div>
+  
                   <div class="form-group col-md-6">
                     <label for="email">Team leader Email</label>
                     <input type="email" class="form-control" name="email" id="email" data-rule="email"
-                      data-msg="Please enter a valid email" />
+                      data-msg="Please enter a valid email" required />
                     <div class="validate"></div>
                   </div>
                 </div>
 
-                <div class="form-row" > 
-                <div class="form-group col-md-6">
-
-                  <label for="mobile">Your name</label>
-                  <input type="text" class="form-control" name="mobile" id="mobile" data-rule="minlen:10"
-                    data-msg="Please enter a valid mobile number" />
-                  <div class="validate"></div>
-                </div>
-
-                  <div class="form-group col-md-6">
-                  <label for="mobile"> Your Mobile Number</label>
-                  <input type="text" class="form-control" name="mobile" id="mobile" data-rule="minlen:10"
-                    data-msg="Please enter a valid mobile number" />
-                  <div class="validate"></div>
-                  </div>
-
-                
-              </div>
+             
 
 
                 <div class="form-group">
                   <label for="theme">Choose Your Hackathon Theme</label>
-                  <select name="theme" id="theme" class="form-control">
+                  <select name="theme" id="theme" class="form-control" required>
                     <option value="Agriculture">Agriculture</option>
                     <option value="Cyber Security">Cyber Security</option>
                     <option value="AR/VR Model">AR/VR Model</option>
@@ -1100,7 +1102,7 @@
 
                 <div class="form-group">
                   <label for="theme">Choose Your Occupation</label>
-                  <select name="profession" id="profession" class="form-control">
+                  <select name="profession" id="profession" class="form-control" required>
                    
                     <option value="Challenges on COVID-19">Student</option>
                     <option value="Advanced Smart Voice Assistant">Working professional</option>
