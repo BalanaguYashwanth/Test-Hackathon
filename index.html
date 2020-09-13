@@ -36,6 +36,70 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <style>
+    .floating-btn {
+  color: $innerColor;
+  background: $color;
+  border-color: $color;
+  
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: $size/2;
+  
+  width: $size;
+  height: $size;
+  
+  border-radius: $size $size;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  transition: width 0.5s ease;
+  
+  .expanded {
+    opacity: 0; 
+    color: $innerColor;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 24px;
+    
+    transition: opacity 0.25s ease;
+  }
+  
+  &:hover {
+    width: $size*5;
+    
+    .icon {
+      opacity: 0;
+    }
+    
+    .expanded {
+      opacity: 1;
+    }
+  }
+}
+
+// this icon needs some extra padding
+.floating-btn .fa-discord {
+  padding-top: .4rem;
+}
+
+// this is just for funsies
+
+
     .float {
       position: fixed;
       width: 60px;
